@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+#wordList {
+    list-style: none;
+    padding: 0;
+}
+
+#wordList li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
